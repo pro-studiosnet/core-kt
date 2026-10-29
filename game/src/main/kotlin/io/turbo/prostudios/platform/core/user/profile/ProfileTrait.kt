@@ -1,6 +1,5 @@
-package io.turbo.prostudios.kernel.user.profile
+package io.turbo.prostudios.platform.core.user.profile
 
-import io.turbo.prostudios.kernel.bukkit.BukkitObject
 import io.turbo.prostudios.kernel.bukkit.IObject
 import io.turbo.prostudios.kernel.storage.StorageScope
 

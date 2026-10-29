@@ -1,4 +1,4 @@
-package io.turbo.prostudios.kernel.user.profile
+package io.turbo.prostudios.platform.core.user.profile
 
 import main.kotlin.io.turbo.prostudios.kernel.user.User
 import main.kotlin.io.turbo.prostudios.data.UserContainer

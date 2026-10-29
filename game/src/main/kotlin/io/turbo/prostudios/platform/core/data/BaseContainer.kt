@@ -1,4 +1,4 @@
-package io.turbo.prostudios.kernel.data
+package io.turbo.prostudios.platform.core.data
 
 /**
  * Placeholder class.

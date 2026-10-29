@@ -1,6 +1,6 @@
 package io.turbo.prostudios.kernel.storage
 
-import io.turbo.prostudios.kernel.server.platform.Gamemode
+import io.turbo.prostudios.kernel.server.Gamemode
 
 /**
  *  Defines the boundaries of where a

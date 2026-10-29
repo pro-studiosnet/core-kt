@@ -1,10 +1,10 @@
-package io.turbo.prostudios.kernel.identity
+package io.turbo.prostudios.platform.core.data.identity
 
-import io.turbo.prostudios.kernel.data.GenericContainer
-import io.turbo.prostudios.kernel.data.MappedContainer
+import io.turbo.prostudios.platform.core.data.GenericContainer
+import io.turbo.prostudios.platform.core.data.MappedContainer
 import java.util.UUID
 
-class ContainerID(
+class ContainerMapper(
     val container: GenericContainer
 ) {
     private val mapping: MutableMap<UUID, GenericContainer> = mutableMapOf()

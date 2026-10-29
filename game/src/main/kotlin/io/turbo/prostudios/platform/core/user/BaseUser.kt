@@ -1,4 +1,4 @@
-package io.turbo.prostudios.kernel.user
+package io.turbo.prostudios.platform.core.user
 
 import main.kotlin.io.turbo.prostudios.kernel.user.User
 import org.bukkit.entity.Player

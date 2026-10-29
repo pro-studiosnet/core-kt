@@ -1,8 +1,7 @@
-package io.turbo.prostudios.kernel.data
+package io.turbo.prostudios.platform.core.data
 
 import io.turbo.prostudios.kernel.bukkit.BukkitObject
 import io.turbo.prostudios.kernel.storage.StorageScope
-import jdk.internal.vm.ThreadContainers.container
 import java.util.*
 
 open class MappedContainer(name: String,
