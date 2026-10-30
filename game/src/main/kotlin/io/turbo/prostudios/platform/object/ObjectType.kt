@@ -1,4 +1,4 @@
-package io.turbo.prostudios.kernel.bukkit
+package io.turbo.prostudios.platform.`object`
 
 import org.bukkit.Location
 import org.bukkit.World

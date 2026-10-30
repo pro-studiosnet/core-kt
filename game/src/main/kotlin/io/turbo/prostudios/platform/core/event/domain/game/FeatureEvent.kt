@@ -1,6 +1,6 @@
 package io.turbo.prostudios.platform.core.event.domain.game
 
-import io.turbo.prostudios.platform.core.event.Event
+import io.turbo.prostudios.kernel.domain.event.types.Event
 
 /**
  *

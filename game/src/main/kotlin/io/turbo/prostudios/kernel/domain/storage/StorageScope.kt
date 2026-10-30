@@ -1,4 +1,4 @@
-package io.turbo.prostudios.kernel.storage
+package io.turbo.prostudios.kernel.domain.storage
 
 import io.turbo.prostudios.kernel.server.Gamemode
 
@@ -12,6 +12,6 @@ import io.turbo.prostudios.kernel.server.Gamemode
 class StorageScope(
     scope: Scope = Scope.INTERNAL
 ) {
-    var objectNativeGamemode: Gamemode? = null
+    var originGamemode: Gamemode? = null
 
 }

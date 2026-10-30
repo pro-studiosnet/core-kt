@@ -1,6 +1,8 @@
 package io.turbo.prostudios.platform.core.event.domain.game
 
 import io.turbo.prostudios.kernel.server.Gamemode
+import io.turbo.prostudios.kernel.domain.event.types.Event
+import io.turbo.prostudios.platform.core.event.GameEvent
 
 /**
  *
@@ -9,8 +11,8 @@ import io.turbo.prostudios.kernel.server.Gamemode
  * @author TurboMaxe
  */
 
-interface GamemodeEvent {
-
-    fun type(): Gamemode
+abstract class GamemodeEvent(
+    val gamemode: Gamemode
+) : GameEvent(gamemode.context().scope, gamemode.context()) {
 
 }

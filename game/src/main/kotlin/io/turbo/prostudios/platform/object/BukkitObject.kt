@@ -1,6 +1,6 @@
-package io.turbo.prostudios.kernel.bukkit
+package io.turbo.prostudios.platform.`object`
 
-import io.turbo.prostudios.kernel.storage.StorageScope
+import io.turbo.prostudios.kernel.domain.storage.StorageScope
 import org.bukkit.Material
 import org.bukkit.World
 import org.bukkit.entity.Player

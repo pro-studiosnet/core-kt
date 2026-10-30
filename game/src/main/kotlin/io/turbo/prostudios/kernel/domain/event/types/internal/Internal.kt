@@ -1,6 +1,6 @@
-package io.turbo.prostudios.kernel.event.types.internal
+package io.turbo.prostudios.kernel.domain.event.types.internal
 
-import io.turbo.prostudios.kernel.context.GameContext
+import io.turbo.prostudios.kernel.domain.context.GameContext
 
 /**
  *

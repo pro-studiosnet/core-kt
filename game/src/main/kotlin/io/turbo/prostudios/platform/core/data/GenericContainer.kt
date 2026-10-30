@@ -1,7 +1,7 @@
 package io.turbo.prostudios.platform.core.data
 
-import io.turbo.prostudios.kernel.bukkit.BukkitObject
-import io.turbo.prostudios.kernel.storage.StorageScope
+import io.turbo.prostudios.platform.`object`.BukkitObject
+import io.turbo.prostudios.kernel.domain.storage.StorageScope
 
 abstract class GenericContainer(
     val name: String,
